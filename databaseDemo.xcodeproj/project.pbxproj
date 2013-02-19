@@ -18,6 +18,7 @@
 		6523C8C716D378FB00D63C71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6523C8C616D378FB00D63C71 /* Default-568h@2x.png */; };
 		6523C8CA16D378FB00D63C71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6523C8C816D378FB00D63C71 /* MainStoryboard.storyboard */; };
 		6523C8CD16D378FB00D63C71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6523C8CC16D378FB00D63C71 /* ViewController.m */; };
+		6523C8D416D3793D00D63C71 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6523C8D316D3793D00D63C71 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6523C8C916D378FB00D63C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6523C8CB16D378FB00D63C71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6523C8CC16D378FB00D63C71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6523C8D316D3793D00D63C71 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6523C8D416D3793D00D63C71 /* libsqlite3.dylib in Frameworks */,
 				6523C8B116D378FB00D63C71 /* UIKit.framework in Frameworks */,
 				6523C8B316D378FB00D63C71 /* Foundation.framework in Frameworks */,
 				6523C8B516D378FB00D63C71 /* CoreGraphics.framework in Frameworks */,
@@ -96,6 +99,7 @@
 		6523C8B716D378FB00D63C71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6523C8D316D3793D00D63C71 /* libsqlite3.dylib */,
 				6523C8B816D378FB00D63C71 /* databaseDemo-Info.plist */,
 				6523C8B916D378FB00D63C71 /* InfoPlist.strings */,
 				6523C8BC16D378FB00D63C71 /* main.m */,
